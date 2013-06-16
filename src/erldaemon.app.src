@@ -1,0 +1,10 @@
+{
+	application,
+	erldaemon,
+	[
+		{description, "Erlang daemon wrapper"},
+		{vsn, git},
+		{applications, [kernel, stdlib]},
+		{mod, {erldaemon_app, []}}
+	]
+}.
