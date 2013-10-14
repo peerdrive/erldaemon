@@ -8,7 +8,7 @@ capabilities which are hard to achieve with plain Erlang:
 * Detach from console only after the daemon was initialized successfully
 * Return proper exit code if initialization fails
 * Maintain a PID-file
-* Orderly shutdown when receiving SIGHUP
+* Orderly shutdown when receiving SIGTERM
 * Log rotation upon receiving SIGHUP
 
 Building
